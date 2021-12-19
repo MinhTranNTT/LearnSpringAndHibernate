@@ -3,6 +3,10 @@ package com.luv2code.springdemo;
 public class CricketCoach implements Coach {
 	
 	private FortuneService fortuneService;
+	
+	// add new fields for emailAddress and team
+	private String emailAddress;
+	private String team;
 
 	// create a constructor no-arg
 	public CricketCoach() {
@@ -24,5 +28,22 @@ public class CricketCoach implements Coach {
 	public String getDailyFortune() {
 		return fortuneService.getFortune();
 	}
-
+	
+	public String getEmailAddress() {
+		return this.emailAddress;
+	}
+	
+	public void setEmailAddress(String emailAddress) {
+		System.out.println("CricketCoach inside setter method - setEmailAddress");
+		this.emailAddress = emailAddress;
+	}
+	
+	public String getTeam() {
+		return this.team;
+	}
+	
+	public void setTeam(String team) {
+		System.out.println("CricketCoach inside setter method - setTeam");
+		this.team = team;
+	}
 }
