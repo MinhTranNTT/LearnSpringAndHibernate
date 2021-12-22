@@ -2,3 +2,4 @@
 /com/
 /sport.properties
 /beanScope-applicationContext.xml
+/beanLifeCycle-applicationContext.xml
