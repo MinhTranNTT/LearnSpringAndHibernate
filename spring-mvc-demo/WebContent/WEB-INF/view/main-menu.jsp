@@ -12,7 +12,7 @@
 
 <h2>Spring MVC Demo - Home Page</h2>
 
-<a href="showForm">Enter Your Name</a>
+<a href="student/showForm">Enter Your Name</a>
 
 <br>
 
